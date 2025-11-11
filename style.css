@@ -149,3 +149,37 @@ h2 {
     float: right;
     font-size: 18px;
 }
+
+.cta-section {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: var(--cta-color);
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    border-radius: 15px;
+    
+}
+
+.cta-text {
+    width: 50%;
+    color: var(--white-text);
+}
+
+.cta-container button {
+    text-align: center;
+    border: 2px solid var(--white-text);
+}
+
+footer {
+    background-color: var(--dark-background);
+    align-items: center;
+}
